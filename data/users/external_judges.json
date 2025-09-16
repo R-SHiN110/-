@@ -1,0 +1,18 @@
+[
+    {
+        "user_id": "ex_1",
+        "national_id": "0382345678",
+        "name": "دکتر نوابی",
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "role": "external_judge",
+        "judge_capacity": 9
+    },
+    {
+        "user_id": "ex_2",
+        "national_id": "0373456789",
+        "name": "دکتر حائری",
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "role": "external_judge",
+        "judge_capacity": 10
+    }
+]

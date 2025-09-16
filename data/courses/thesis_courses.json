@@ -1,0 +1,24 @@
+[
+    {
+        "course_id": "course_1",
+        "title": "پایان نامه",
+        "professor_id": "prof_1",
+        "year": 1403,
+        "semester": "نیمسال اول",
+        "capacity": 4,
+        "resources": "منابع فلان",
+        "sessions_count": 16,
+        "units": 4
+    },
+    {
+        "course_id": "course_2",
+        "title": "پایان نامه",
+        "professor_id": "prof_2",
+        "year": 1403,
+        "semester": "نیمسال دوم",
+        "capacity": 4,
+        "resources": "منابع بهمان",
+        "sessions_count": 14,
+        "units": 4
+    }
+]

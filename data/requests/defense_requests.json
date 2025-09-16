@@ -1,0 +1,28 @@
+[
+    {
+        "student_id": "student_1",
+        "professor_id": "prof_2",
+        "title": "robotic_me",
+        "abstract": "robots are kind and good.",
+        "keywords": [
+            "1"
+        ],
+        "status": "مختومه",
+        "submission_date": "2025-09-10",
+        "file_path": "documents/theses/student_1.course_1.pdf",
+        "image_path": [
+            "documents/images/student_1.course_1.page1.jpg",
+            "documents/images/student_1.course_1.page2.jpg"
+        ],
+        "approved_date": "2025-09-12",
+        "defense_date": "2025-09-15",
+        "internal_judge_id": "prof_1",
+        "external_judge_id": "ex_1",
+        "internal_grade": 17.0,
+        "internal_grade_date": "2025-09-15",
+        "external_grade": 15.0,
+        "external_grade_date": "2025-09-15",
+        "final_grade": 16.0,
+        "final_letter_grade": "ب"
+    }
+]

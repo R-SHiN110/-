@@ -1,0 +1,35 @@
+thesis_management_system/
+├── data/
+│   ├── users/
+│   │   ├── students.json
+│   │   ├── professors.json
+│   │   └── external_judges.json
+│   ├── courses/
+│   │   └── thesis_courses.json
+│   ├── requests/
+│   │   ├── enrollment_requests.json
+│   │   └── defense_requests.json
+│   └── theses/
+│       └── defended_theses.json
+├── documents/
+│   ├── theses/
+│   └── images/
+├── src/
+│   ├── models/
+│   │   ├── user.py
+│   │   ├── course.py
+│   │   ├── request.py
+│   │   └── thesis.py
+│   ├── utils/
+│   │   ├── file_io.py
+│   │   ├── auth.py
+│   │   └── helpers.py
+│   ├── menus/
+│   │   ├── main_menu.py
+│   │   ├── student_menu.py
+│   │   ├── professor_menu.py
+│   │   └── external_judge_menu.py
+│   └── main.py
+├── requirements.txt
+├── run.py
+└── README.md
