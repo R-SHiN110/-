@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58c5a105-9b3a-4993-98e6-30b2a4f1819c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/courses/thesis_courses.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/courses/thesis_courses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/requests/defense_requests.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/requests/defense_requests.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/requests/enrollment_requests.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/requests/enrollment_requests.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/theses/defended_theses.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/theses/defended_theses.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/images/student_1.course_1.page1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documents/images/student_1.course_1.page1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/images/student_1.course_1.page2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/documents/images/student_1.course_1.page2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/theses/student_1.course_1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/documents/theses/student_1.course_1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menus/external_judge_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menus/external_judge_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menus/professor_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menus/professor_menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,7 @@
       <workItem from="1757778257390" duration="42964000" />
       <workItem from="1758010591542" duration="10806000" />
       <workItem from="1758037329373" duration="8062000" />
-      <workItem from="1758048910699" duration="3997000" />
+      <workItem from="1758048910699" duration="4301000" />
     </task>
     <servers />
   </component>
