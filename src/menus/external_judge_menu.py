@@ -131,6 +131,17 @@ def grade_theses_as_external(user):
 
     # ذخیره تغییرات
     write_json(DEFENSE_REQUESTS_FILE, defense_requests)
+
+    # افزایش ظرفیت داور خارجی پس از نمره‌دهی
+    external_judges = read_json("data/users/external_judges.json")
+    for judge in external_judges:
+        if judge["user_id"] == user.user_id:
+            judge["judge_capacity"] = judge.get("judge_capacity", 0) + 1
+            print(f"✅ ظرفیت داوری شما به {judge['judge_capacity']} افزایش یافت.")
+            break
+
+    write_json("data/users/external_judges.json", external_judges)
+
     input("برای ادامه Enter بزنید...")
 
 

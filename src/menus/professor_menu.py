@@ -651,6 +651,16 @@ def grade_defense_sessions(professor):
     except (ValueError, IndexError):
         print("❌ انتخاب نامعتبر!")
 
+    # افزایش ظرفیت داور خارجی پس از نمره‌دهی
+    professors = read_json("data/users/professors.json")
+    for judge in professors:
+        if judge["user_id"] == professor.user_id:
+            judge["judge_capacity"] = judge.get("judge_capacity", 0) + 1
+            print(f"✅ ظرفیت داوری شما به {judge['judge_capacity']} افزایش یافت.")
+            break
+
+    write_json("data/users/professors.json", professors)
+
     input("\nبرای بازگشت Enter بزنید...")
 
 def search_theses():

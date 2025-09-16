@@ -32,4 +32,4 @@ thesis_management_system/
 │   └── main.py
 ├── requirements.txt
 ├── run.py
-└── README.md
+└── README.docx

@@ -56,18 +56,14 @@ def display_menu(menu_title: str, options: list) -> None:
     """
     نمایش یک منوی زیبا در کنسول
     """
-    # print(f"\n{'-' * 50}")
-    # print(f" {menu_title} ")
-    # print(f"{'-' * 50}")
-    #
-    # for i, option in enumerate(options, 1):
-    #     print(f" {i}. {option}")
-    #
-    # print(f"{'-' * 50}")
-    print(f"\n{'=' * 50}\n{menu_title}\n{'=' * 50}")
-    for idx, option in enumerate(options, start=1):
-        print(f"{idx}. {option}")
-    print("-" * 50)
+    print(f"\n{'-' * 50}")
+    print(f" {menu_title} ")
+    print(f"{'-' * 50}")
+
+    for i, option in enumerate(options, 1):
+        print(f" {i}. {option}")
+
+    print(f"{'-' * 50}")
 
 
 def get_semester_year(defense_date: str, date_format: str = "%Y-%m-%d") -> str:

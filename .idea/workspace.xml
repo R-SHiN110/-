@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58c5a105-9b3a-4993-98e6-30b2a4f1819c" name="Changes" comment="" />
+    <list default="true" id="58c5a105-9b3a-4993-98e6-30b2a4f1819c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/requests/defense_requests.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/requests/defense_requests.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/theses/defended_theses.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/theses/defended_theses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users/external_judges.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users/external_judges.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users/professors.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/users/professors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menus/external_judge_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menus/external_judge_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menus/professor_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/menus/professor_menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/helpers.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -24,6 +36,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="31mS8o9f3DsBjaDJQ9EjFBRJ8m2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,7 +96,7 @@
       <workItem from="1757487267533" duration="4619000" />
       <workItem from="1757778257390" duration="42964000" />
       <workItem from="1758010591542" duration="10806000" />
-      <workItem from="1758037329373" duration="2573000" />
+      <workItem from="1758037329373" duration="7453000" />
     </task>
     <servers />
   </component>
@@ -92,7 +105,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thesis_management_system$professor_menu.coverage" NAME="professor_menu Coverage Results" MODIFIED="1757892453687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/menus" />
-    <SUITE FILE_PATH="coverage/thesis_management_system$RUN.coverage" NAME="RUN Coverage Results" MODIFIED="1758037727942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thesis_management_system$RUN.coverage" NAME="RUN Coverage Results" MODIFIED="1758046290190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/thesis_management_system$auth.coverage" NAME="auth Coverage Results" MODIFIED="1756140521863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
     <SUITE FILE_PATH="coverage/thesis_management_system$Student.coverage" NAME="Student Coverage Results" MODIFIED="1757250774938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PyPro" />
     <SUITE FILE_PATH="coverage/thesis_management_system$student_menu.coverage" NAME="student_menu Coverage Results" MODIFIED="1757880650083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/menus" />
