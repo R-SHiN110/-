@@ -1,7 +1,7 @@
 [
     {
         "student_id": "student_1",
-        "professor_id": "prof_2",
+        "professor_id": "prof_1",
         "title": "robotic_me",
         "abstract": "robots are kind and good.",
         "keywords": [
@@ -16,13 +16,41 @@
         ],
         "approved_date": "2025-09-12",
         "defense_date": "2025-09-15",
-        "internal_judge_id": "prof_1",
+        "internal_judge_id": "prof_2",
         "external_judge_id": "ex_1",
         "external_grade": 17.0,
         "external_grade_date": "2025-09-16",
         "internal_grade": 19.0,
         "internal_grade_date": "2025-09-16",
         "final_grade": 18.0,
+        "final_letter_grade": "الف"
+    },
+    {
+        "student_id": "student_2",
+        "professor_id": "prof_2",
+        "title": "ai",
+        "abstract": "ai is changing the world",
+        "keywords": [
+            "ai",
+            "robotic",
+            "programming"
+        ],
+        "status": "مختومه",
+        "submission_date": "2025-09-16",
+        "file_path": "documents/theses/student_2.course_2.pdf",
+        "image_path": [
+            "documents/images/student_2.course_2.page1.jpg",
+            "documents/images/student_2.course_2.page2.jpg"
+        ],
+        "approved_date": "2025-09-16",
+        "defense_date": "2025-09-16",
+        "internal_judge_id": "prof_1",
+        "external_judge_id": "ex_2",
+        "external_grade": 19.0,
+        "external_grade_date": "2025-09-16",
+        "internal_grade": 20.0,
+        "internal_grade_date": "2025-09-16",
+        "final_grade": 19.5,
         "final_letter_grade": "الف"
     }
 ]

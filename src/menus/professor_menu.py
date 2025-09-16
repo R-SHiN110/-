@@ -626,6 +626,16 @@ def grade_defense_sessions(professor):
             selected_defense["final_letter_grade"] = final_letter_grade
             selected_defense["status"] = "مختومه"
 
+            # افزایش ظرفیت درس برای استاد راهنما
+            courses = read_json("data/courses/thesis_courses.json")
+            for course in courses:
+                if course["professor_id"] == selected_defense["professor_id"]:
+                    course["capacity"] = course.get("capacity", 0) + 1
+                    print(f"✅ ظرفیت درس '{course['title']}' به {course['capacity']} افزایش یافت.")
+                    break
+            write_json("data/courses/thesis_courses.json", courses)
+
+
             print(f"🎯 نمره نهایی: {final_grade:.2f} ({final_letter_grade})")
             print("✅ پایان‌نامه مختومه شد.")
 

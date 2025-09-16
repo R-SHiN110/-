@@ -12,9 +12,9 @@
         "student_id": "student_2",
         "course_id": "course_2",
         "professor_id": "prof_2",
-        "status": "در انتظار تأیید استاد",
-        "created_at": "2025-09-15",
-        "approved_date": "-",
+        "status": "تایید شده",
+        "created_at": "2025-06-15",
+        "approved_date": "2025-06-16",
         "rejected_date": "-"
     }
 ]

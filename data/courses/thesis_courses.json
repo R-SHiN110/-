@@ -5,7 +5,7 @@
         "professor_id": "prof_1",
         "year": 1403,
         "semester": "نیمسال اول",
-        "capacity": 4,
+        "capacity": 5,
         "resources": "منابع فلان",
         "sessions_count": 16,
         "units": 4
@@ -16,7 +16,7 @@
         "professor_id": "prof_2",
         "year": 1403,
         "semester": "نیمسال دوم",
-        "capacity": 4,
+        "capacity": 5,
         "resources": "منابع بهمان",
         "sessions_count": 14,
         "units": 4
